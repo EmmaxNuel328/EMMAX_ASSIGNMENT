@@ -3,7 +3,7 @@ public class Largest{
 public static void main(String[] args){
 Scanner input = new Scanner(System.in);
 
-System.out.print("Enter first number");
+System.out.print("Enter firsts number");
 int first = input.nextInt();
 System.out.print("Enter second number");
 int second = input.nextInt();
