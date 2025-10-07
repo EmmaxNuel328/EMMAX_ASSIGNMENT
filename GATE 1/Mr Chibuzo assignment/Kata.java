@@ -43,19 +43,22 @@ return sum;
 public static int SquareOf(int number1){
 int integer = number1;
 return integer*integer;
-}1
+}
 public static boolean isSquare(int square){
 int integers = square;
 int count = 1;
 int sum = 0;
-for(count = 1;count <= integers ;count++){
-ifintegers%count==0){
-sum = sum + 1;
-if(sum%2!=0){
+	for(count = 1;count <= integers ;count++){
+	if(integers%count==0)
+	sum = sum + 1;
+	}
+
+if(sum%2!=0)
 return true;
-}
-return false; 
-}
+else
+return false;
+
+
 
 }  
 }
