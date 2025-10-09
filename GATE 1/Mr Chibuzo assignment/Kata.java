@@ -58,7 +58,34 @@ return true;
 else
 return false;
 
+} 
+public static int findSmallest(int[] integer){
+int smallest = integer[0];
+result = result + integer[index];
+for (int index = 0; index < integer.length;index++ ){
+if(integer[index] < smsallest){
+smallest = integer[index];
+}
+return smallest;
+}
+}
+		
 
 
-}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
 }
