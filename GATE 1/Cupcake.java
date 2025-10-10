@@ -24,7 +24,6 @@ return average;
 
 }
 public static int CountOccurence(int number[], int number1){
-	//number1  = number;
 	int add  = 0;
 
 	for (int index = 0; index < number.length; index++){
@@ -34,6 +33,16 @@ public static int CountOccurence(int number[], int number1){
 }
 return add;
 }
+public static boolean ContainsElement(int number[], int number1){
+	for (int index = 0; index < number.length; index++){
+		if(number1 == number[index]){
+			return true;
+		}
+		
+}
 
+return false; 
+
+} 
 
 }
